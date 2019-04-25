@@ -4,7 +4,7 @@
 
 ## 环境介绍
     webpack4 + scss + jquery
-  # 目录
+  ### 目录
     1.build => webpack一些配置
       详情参考：https://juejin.im/post/5b9116086fb9a05d05307e96
     2.src => assets
