@@ -6,13 +6,13 @@
   使用时引入rem.js，设计稿多少px，css就写多少px，自动转换为rem
 
 ## 目录
-  1.build => webpack
+  ### 1.build => webpack
     webpack配置
-  2.src => assets
+  ### 2.src => assets
     里面可以放一些公用方法，图片，样式
-  3.src => pages
+  ### 3.src => pages
     index.html index.js index.scss
-  4.src ＝> assets => js => ajaxLink
+  ### 4.src ＝> assets => js => ajaxLink
     a. 统一的环境变量来控制生产环境和开发环境
     b. 接口汇总
     c. 开发环境 api／**
