@@ -13,10 +13,10 @@
   3. src => pages
     index.html index.js index.scss
   4. src ＝> assets => js => ajaxLink
-      *  统一的环境变量来控制生产环境和开发环境
-      *  接口汇总
-      *  开发环境 api/，
-         生产环境 自己定义对应线上接口路径
+    *  统一的环境变量来控制生产环境和开发环境
+    *  接口汇总
+    *  开发环境 api/，
+        生产环境 自己定义对应线上接口路径
 
 ## 项目开发流程
   1. git clone https://github.com/vitamin-lin/webpackPage.git
