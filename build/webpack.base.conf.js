@@ -57,7 +57,6 @@ module.exports = {
     },
     //将外部变量或者模块加载进来
     externals: {
-        'jQuery': 'window.jQuery'
     },
     // 提取公共代码
     optimization: {
@@ -82,7 +81,8 @@ module.exports = {
     plugins: [
         // 全局暴露统一入口
         new webpack.ProvidePlugin({
-
+            $: "jquery",
+            jQuery: 'jquery'
         }),
         //静态资源输出
         new copyWebpackPlugin([{

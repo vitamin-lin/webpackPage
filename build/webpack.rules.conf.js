@@ -58,7 +58,7 @@ const rules = [{
         }
     }, {
         test: require.resolve('jquery'),
-        loader: 'exports-loader?window.jquery!script-loader'
+        loader: 'exports-loader?window.jQuery!script-loader'
     }
 ];
 module.exports = rules;

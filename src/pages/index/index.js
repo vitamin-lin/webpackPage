@@ -1,7 +1,7 @@
 if (process.env.NODE_ENV !== 'production') {
     require('./index.html');
 }
-import $ from 'jQuery';
+import $ from 'jquery';
 import "../../assets/css/style.scss";
 import "./index.scss";
 
