@@ -1,15 +1,13 @@
 ## 环境介绍
-    webpack4 + scss + jquery ＋ es6
-    此环境参考 https://github.com/Blubiubiu/webpack4_mpa_demo
-    根据其改为自己可用的多页应用H5开发
+  webpack4 + scss + jquery ＋ es6
 
 ## 设计稿
   增加px2rem，以及rem.js文件（以750设计稿为准）
   使用时引入rem.js，设计稿多少px，css就写多少px，自动转换为rem
 
 ## 目录
-  1.build => webpack一些配置
-    详情参考：https://juejin.im/post/5b9116086fb9a05d05307e96
+  1.build => webpack
+    webpack配置
   2.src => assets
     里面可以放一些公用方法，图片，样式
   3.src => pages
