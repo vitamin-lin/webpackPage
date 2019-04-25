@@ -4,7 +4,7 @@
 
 ## 环境介绍
     webpack4 + scss + jquery
-  ### 目录
+## 目录
     1.build => webpack一些配置
       详情参考：https://juejin.im/post/5b9116086fb9a05d05307e96
     2.src => assets
@@ -12,8 +12,8 @@
     3.src => pages
       index.html index.js index.scss
 
-## 项目的开发流程
+## 项目开发流程
   1. git clone https://github.com/vitamin-lin/webpackPage.git
   2. npm install 安装开发环境依赖包
   3. npm run dev 开启本地开发环境
-  4. npm run build build 项目上线时打包压缩前端
+  4. npm run build 项目上线时打包压缩前端
