@@ -14,6 +14,8 @@
     4.src ＝> assets => js => ajaxLink
       a. 统一的环境变量来控制生产环境和开发环境
       b. 接口汇总
+      c. 开发环境 api／**
+         生产环境 自己定义接口 **/**
 
 ## 项目开发流程
   1. git clone https://github.com/vitamin-lin/webpackPage.git
