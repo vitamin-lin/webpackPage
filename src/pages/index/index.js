@@ -6,12 +6,26 @@ import '../../assets/js/rem';
 import "../../assets/css/style.scss";
 import "./index.scss";
 
-
-$.ajax({
-    type:"GET",
-    url:'/api/identity',
-    data:'',
-    dataType:'json',
-    success:function(res){
+(function(){
+    var chat = {
+      init: function(){
+        this.bind();
+      },
+      bind: function(){
+        this.pay();
+      },
+      pay:function(){
+        $.ajax({
+            type:"GET",
+            url:'/api/identity',
+            data:'',
+            dataType:'json',
+            success:function(res){
+            }
+        })
+      }
     }
-})
+    chat.init();
+})();
+  
+  
