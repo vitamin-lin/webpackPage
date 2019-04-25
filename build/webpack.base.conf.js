@@ -84,12 +84,12 @@ module.exports = {
             $: "jquery",
             jQuery: 'jquery'
         }),
-        //静态资源输出
-        new copyWebpackPlugin([{
-            from: path.resolve(__dirname, "../src/assets"),
-            to: './assets',
-            ignore: ['.*']
-        }]),
+        //静态资源输出（暂时干掉，只是单纯的复制并没有起作用）
+        // new copyWebpackPlugin([{
+        //     from: path.resolve(__dirname, "../src/assets"),
+        //     to: './assets',
+        //     ignore: ['.*']
+        // }]),
         // 消除冗余的css代码
         new purifyCssWebpack({
             paths: glob.sync(path.join(__dirname, "../src/pages/*/*.html"))

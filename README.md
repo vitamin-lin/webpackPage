@@ -3,7 +3,7 @@
   使用时引入rem.js，设计稿多少px，css就写多少px，自动转换为rem
 
 ## 环境介绍
-    webpack4 + scss + jquery
+    webpack4 + scss + jquery ＋ es6
 ## 目录
     1.build => webpack一些配置
       详情参考：https://juejin.im/post/5b9116086fb9a05d05307e96
