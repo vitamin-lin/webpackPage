@@ -24,7 +24,10 @@ const rules = [{
     {
         test: /\.js$/,
         use: [{
-            loader: "babel-loader"
+            loader: "babel-loader",
+            options: {
+                presets: ['es2015']
+            }
         }],
         // 不检查node_modules下的js文件
         // exclude: "/node_modules/"

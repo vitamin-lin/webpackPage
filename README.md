@@ -11,6 +11,9 @@
       里面可以放一些公用方法，图片，样式
     3.src => pages
       index.html index.js index.scss
+    4.src ＝> assets => js => ajaxLink
+      a. 统一的环境变量来控制生产环境和开发环境
+      b. 接口汇总
 
 ## 项目开发流程
   1. git clone https://github.com/vitamin-lin/webpackPage.git
