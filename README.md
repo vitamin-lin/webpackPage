@@ -13,6 +13,7 @@
       index.html index.js index.scss
 
 ## 项目的开发流程
-  1. npm install 安装开发环境依赖包
-  2. npm run dev 开启本地开发环境
-  3. npm run build build 项目上线时打包压缩前端
+  1. git clone https://github.com/vitamin-lin/webpackPage.git
+  2. npm install 安装开发环境依赖包
+  3. npm run dev 开启本地开发环境
+  4. npm run build build 项目上线时打包压缩前端

@@ -56,8 +56,7 @@
   "dependencies": {
     "raw-loader": "^1.0.0",
     "webpack": "^4.29.6",
-    // "zepto": "^1.2.0",
-    "jQuery": "^1.12.4"
+    "jquery": ">=3.4.0"
   },
   "browserslist": [
     "defaults",

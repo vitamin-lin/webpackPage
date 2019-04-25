@@ -57,8 +57,8 @@ const rules = [{
             }
         }
     }, {
-        test: require.resolve('zepto'),
-        loader: 'exports-loader?window.Zepto!script-loader'
+        test: require.resolve('jquery'),
+        loader: 'exports-loader?window.jquery!script-loader'
     }
 ];
 module.exports = rules;

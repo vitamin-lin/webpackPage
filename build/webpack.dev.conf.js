@@ -33,7 +33,7 @@ const webpackConfigDev = {
         //服务器代理配置项
         proxy: {
             '/api/*': {
-                target: 'http://huggies-py.kmapp.cn',
+                target: 'http://www.baidu.com',
                 // secure: false,// 如果是https接口，需要配置这个参数
                 changeOrigin: true,    
                 pathRewrite: {
